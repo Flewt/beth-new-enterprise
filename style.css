@@ -1,0 +1,141 @@
+:root {
+  --teal: #39DCCC;
+  --grey: #1E1E1E;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+HEADER Stlyling
+*/
+
+header {
+  background-color: var(--grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 122px;  
+  flex-wrap: nowrap;  
+}
+
+.logo img {
+  height: 84px;
+  width: 216px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 24px;
+  /* space between menu items */
+  white-space: nowrap;
+  /* prevent text from wrapping */
+}
+
+.main-menu {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+
+/*Home Page Styling*/
+main {
+  background-image: url(assets/background-image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 122px;
+}
+
+.main-card {
+  background-color: var(--grey);
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding-top: 76px;
+  padding-bottom: 94px;
+}
+
+.home-card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 132px;
+}
+
+.home-card {
+  border-width: 1px;
+  border-color: var(--teal);
+  border-style: solid;
+}
+
+.home-button {
+  background-color: white;
+  color: var(--grey);
+  border: none;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 72px;
+  padding-right: 72px;
+  cursor: pointer;
+  font-size: 32px;
+  margin: 48px;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  opacity: 75%;
+  text-align: center;
+}
+
+.home-card {}
+
+
+/* Footer Styling */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--grey);
+  color: var(--teal);
+  font-size: 16px;
+  height: 157px;
+  width: auto;
+  color: var(--teal);
+  padding: 0 122px;
+  flex-wrap: nowrap; 
+}
+
+.footer-list {
+  display: flex;
+  gap: 82px;
+  justify-content: space-between;
+  list-style: none;
+
+  padding: 0;
+}
+
+.footer-link {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.footer-note {
+  color: var(--teal);
+  opacity: 100%;
+
+}
