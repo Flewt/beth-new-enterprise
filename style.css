@@ -33,15 +33,22 @@ header {
 .nav-menu {
   display: flex;
   gap: 24px;
-  /* space between menu items */
-  white-space: nowrap;
-  /* prevent text from wrapping */
+  font-size: 24px;
+  white-space: nowrap;  
 }
 
 .main-menu {
   color: white;
   text-decoration: none;
   padding: 16px;
+}
+
+.main-menu:hover {
+  text-decoration: underline;
+} 
+
+.main-menu:active {
+  opacity: 0.75;
 }
 
 /*Home Page Styling*/
@@ -94,14 +101,23 @@ h1 {
   margin: 48px;
 }
 
+.home-button:hover {
+  background-color: var(--teal) ;
+}
+
+.home-button:active {
+  color: white;
+}
+
 p {
   font-size: 16px;
   color: white;
   opacity: 75%;
   text-align: center;
+  padding-top: 48px;
 }
 
-.home-card {}
+
 
 
 /* Footer Styling */
@@ -125,7 +141,6 @@ footer {
   gap: 82px;
   justify-content: space-between;
   list-style: none;
-
   padding: 0;
 }
 
